@@ -1,6 +1,6 @@
 +++
-title = "Writing Guide"
-description = "A compact reference for Markdown, Serenity components, math, and charts."
+title = "Writing Guideline"
+description = "A compact reference for Markdown, Serenity(theme) components, math, and charts."
 draft = true
 date = 2004-01-01
 updated = 2026-10-15
