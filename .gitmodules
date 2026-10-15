@@ -1,0 +1,4 @@
+[submodule "themes/serenity"]
+	path = themes/serenity
+	url = https://github.com/Smileyhojin/serenity.git
+	branch = main
