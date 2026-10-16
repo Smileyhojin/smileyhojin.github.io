@@ -7,7 +7,7 @@ Built with Zola and the Serenity theme submodule.
 ```sh
 git submodule update --init --recursive
 nix develop
-zola serve --drafts
+zola serve --drafts --base-url /
 ```
 
 ## Build and check
