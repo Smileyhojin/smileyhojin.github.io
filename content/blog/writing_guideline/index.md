@@ -23,7 +23,7 @@ A working reference for writing with Serenity. Open `.md` in the footer to copy 
 
 ## Front matter
 
-Create `content/blog/my-post/index.md`; keep attachments beside it. This guide is a draft: preview it with `zola serve --drafts`; set `draft = false` to publish. The old dates demonstrate the outdated alert.
+Create `content/blog/my-post/index.md`; keep chart scripts beside it and host images at `https://img.smileyhojin.com`. This guide is a draft: preview it with `zola serve --drafts`; set `draft = false` to publish. The old dates demonstrate the outdated alert.
 
 ```toml
 # Wrap front matter in +++ delimiters.
@@ -110,7 +110,7 @@ fn main() -> io::Result<()> {
 
 ### Images
 
-![Application architecture](typical-app.webp)
+![Photo DSCF1501](https://img.smileyhojin.com/DSCF1501.webp)
 
 ## Extra Features
 
@@ -149,7 +149,7 @@ A second paragraph.
 **Markdown** inside a disclosure.
 {% </detail> %}
 
-{{ <figure src="https://github.blog/wp-content/uploads/2022/09/garbagecollection4.gif" alt="" caption="**Figure 1.** A caption." width="480" page /> }}
+{{ <figure src="https://img.smileyhojin.com/DSCF1501.webp" alt="Photo DSCF1501" caption="**Figure 1.** A caption." width="480" page /> }}
 
 ### Math
 

@@ -6,13 +6,8 @@ Built with Zola and the Serenity theme submodule.
 
 ```sh
 git submodule update --init --recursive
-nix develop
+# nix develop
+zola check --drafts --skip-external-links
+zola build
 zola serve --drafts --base-url /
-```
-
-## Build and check
-
-```sh
-nix develop -c zola check --drafts --skip-external-links
-nix develop -c zola build
 ```
