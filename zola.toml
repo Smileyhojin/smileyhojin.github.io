@@ -1,6 +1,6 @@
 #:tombi schema.strict = false
 
-base_url = "https://smileyhojin.github.io"
+base_url = "https://smileyhojin.com"
 title = "Smileyhojin"
 description = "Smileyhojin's webpage."
 default_language = "en"
@@ -55,7 +55,7 @@ links = [
 
 blog_section_path = "/blog"
 
-color_scheme = "auto"
+color_scheme = "light"
 back_link_text = "Back"
 
 footer_copyright = "© 2026 Smileyhojin"
